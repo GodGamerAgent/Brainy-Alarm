@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group strictly centered in the 66dp safe area (between 21dp and 87dp) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- Outer Glass Ring Glow / Halo -->
+        <path
+            android:pathData="M54,54m-27,0a27,27 0 1,0 54,0a27,27 0 1,0 -54,0"
+            android:strokeWidth="1.5"
+            android:strokeColor="#4DFFFFFF" />
+
+        <!-- Main Minimalist Clock Dial Bezel -->
+        <path
+            android:pathData="M54,54m-24,0a24,24 0 1,0 48,0a24,24 0 1,0 -48,0"
+            android:strokeWidth="3.2"
+            android:strokeColor="#FFFFFF" />
+
+        <!-- 12 O'Clock Marker -->
+        <path
+            android:pathData="M54,32 L54,36"
+            android:strokeWidth="2.8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- 3 O'Clock Marker -->
+        <path
+            android:pathData="M76,54 L72,54"
+            android:strokeWidth="2.8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- 6 O'Clock Marker -->
+        <path
+            android:pathData="M54,76 L54,72"
+            android:strokeWidth="2.8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- 9 O'Clock Marker -->
+        <path
+            android:pathData="M32,54 L36,54"
+            android:strokeWidth="2.8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Subtle Sub-ticks (1, 2, 4, 5, 7, 8, 10, 11) -->
+        <path
+            android:pathData="M65,35 L63,38.5 M73,43 L69.5,45 M73,65 L69.5,63 M65,73 L63,69.5 M43,73 L45,69.5 M35,65 L38.5,63 M35,43 L38.5,45 M43,35 L45,38.5"
+            android:strokeWidth="1.5"
+            android:strokeColor="#80FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Minute Hand (Pointing up to 12:00) -->
+        <path
+            android:pathData="M54,54 L54,37"
+            android:strokeWidth="3.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Hour Hand (Pointing down-left to 7:00) -->
+        <path
+            android:pathData="M54,54 L44,65"
+            android:strokeWidth="4.2"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Center Frosted Glass Pivot Ring -->
+        <path
+            android:pathData="M54,54m-4.5,0a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0"
+            android:fillColor="#000000"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF" />
+
+        <!-- Center Pure White Core Dot -->
+        <path
+            android:pathData="M54,54m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>

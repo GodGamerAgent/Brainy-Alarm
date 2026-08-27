@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">I Can\'t Wake Up!</string>
+    <string name="accessibility_service_desc">Anti-System Shutdown Protection: Prevents turning off the device or pulling down power dialogs during active alarm ringing so you are forced to wake up.</string>
+    <string name="device_admin_desc">Anti-Shutdown Admin Protection: Ensures the alarm cannot be dismissed through forceful app termination while active.</string>
+    <string name="anti_shutdown_active_alert">ANTI-SHUTDOWN ACTIVE! Complete the wake up challenge to turn off the alarm.</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "I Can't Wake Up! Alarm",
+  "description": "Extreme alarm clock with awake test challenges and Anti-System Shutdown protection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
